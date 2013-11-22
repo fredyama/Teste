@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_padrao"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tituloTela"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/feeds"
+        android:textSize="30sp" 
+        android:layout_marginLeft="5dp"
+        android:textColor="#F0F8FF"/>
+    
+    <EditText
+        android:id="@+id/pesquisaFeed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloTela"
+        android:alpha="0.5"
+        android:drawableRight="@drawable/lupa"
+        android:hint="@string/buscar"
+        android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/volta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/listaFeed"
+            android:clickable="true"
+            android:src="@drawable/arrow" />
+
+    <Button
+        android:id="@+id/listaGrupos"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="listarGrupos"
+        android:text="@string/grupos" />
+
+    <ListView
+       
+       
+
+        android:id="@+id/listaFeed"
+        android:layout_width="fill_parent"
+        android:layout_height="420dp"
+        android:layout_above="@id/listaGrupos"
+        android:layout_below="@id/pesquisaFeed" 
+        android:dividerHeight="8dp" 
+        android:divider="@android:color/transparent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"/>
+
+
+
+</RelativeLayout>

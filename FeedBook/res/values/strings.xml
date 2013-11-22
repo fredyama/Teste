@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FeedBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="ano">2013</string>
+    <string name="volta">Voltar</string>
+    <string name="details">Detalhes</string>
+	<!-- Hanna -->
+    <string name="buscar">Buscar</string>
+    <string name="novo_feed">Novo Feed</string>
+    <string name="grupos">Grupos</string>
+    <string name="novo_grupo">Novo Grupo</string>
+    <string name="feeds_grupo">Feeds do Grupo</string>
+    <string name="excluir">Excluir</string>
+    <string name="titulo">Título</string>
+    <string name="detalhe">Detalhe</string> 
+    <string name="publicar_feed">Publicar</string>
+    <string name="editar">Editar</string>
+    <string name="gerenciar_membros">Gerenciar Membros</string>
+    <string name="feeds">Feeds</string>
+    <string name="nome">Nome</string>
+    <string name="salvar">Salvar</string>
+    <string name="detalhar">Detalhar</string>
+    <string name="descricao">Descrição</string>
+    <string name="manter_conectado">Manter conectado</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastro_usuario">Cadastro de usuário</string>
+    <string name="email">E-mail</string>
+    <string name="apelido">Apelido</string>
+    <string name="continuar">Continuar</string>
+    <string name="insira_codigo_email">Insira o código recebido no e-mail.</string>
+    <string name="codigo">Código</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="concluir">Concluir</string>
+    <!-- Cadastro usuario -->
+    <string name="msg_digite_email_valido">Digite um e-mail válido</string>
+    <string name="msg_digite_apelido">Digite um apelido</string>
+    <string name="msg_insira_codigo_email">Insira o código enviado para seu e-mail</string>
+    <string name="msg_existe_usuario_cadastrado_email">Já existe um usuário cadastrado com esse e-mail</string>
+    <!-- Confirmacao cadastro -->
+    <string name="msg_codigo_incorreto">Código incorreto</string>
+    <!-- Alterar senha -->
+    <string name="msg_digite_senha">Digite a senha</string>
+    <string name="msg_senha_seis_digitos">A senha deve ter mais de 6 digitos</string>
+    <string name="msg_digite_confirmacao">Digite a confirmação da senha</string>
+    <string name="msg_confirmacao_incorreta">Confirmação não é igual a senha</string>
+    <string name="msg_usuario_cadastrado_sucesso">Usuário cadastrado com sucesso</string>
+    <!-- Novo feed -->
+    <string name="msg_digite_titulo">Digite o título do feed</string>
+    <string name="msg_feed_publicado_sucesso">Feed publicado com sucesso</string>
+    <!-- Toast -->
+    <string name="icone_alerta">Icone alerta</string>
+    <!-- Novo Grupo -->
+    <string name="msg_digite_nome_grupo">Digite o nome do grupo</string>
+    <string name="msg_grupo_cadastrado_sucesso_chave">Grupo cadastrado com sucesso. Chave: </string>
+    
+</resources>

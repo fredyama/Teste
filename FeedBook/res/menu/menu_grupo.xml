@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+		android:id="@+id/novoFeed"
+		android:title="@string/novo_feed"/>
+ 
+    <item
+		android:id="@+id/feedsGrupo"
+		android:title="@string/feeds_grupo"/>
+    
+    <item
+		android:id="@+id/gerenciarMembros"
+		android:title="@string/gerenciar_membros"/>
+    
+    <item
+		android:id="@+id/editarGrupo"
+		android:title="@string/detalhar"/>
+    
+    <item
+		android:id="@+id/excluirGrupo"
+		android:title="@string/excluir"/>
+
+</menu>
